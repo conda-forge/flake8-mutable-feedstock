@@ -1,6 +1,6 @@
 {% set name = "flake8-mutable" %}
-{% set version = "1.0.5" %}
-{% set sha256 = "b9c4498e86f48c377b6ccf4e8ed112ae3861d7e5a2e496ab4b9ad35ab86b03b0" %}
+{% set version = "1.1.0" %}
+{% set sha256 = "dc3824c5ef0b9bffdaa18ab64cd08ef8dcae30969033a6d71dfbac878a058c4f" %}
 
 package:
   name: {{ name|lower }}
@@ -31,8 +31,7 @@ about:
   home: https://github.com/ebeweber/flake8-mutable
   license: MIT
   license_family: MIT
-  # License file not in PyPI tarball: ebeweber/flake8-mutable#7
-  # license_file: LICENSE
+  license_file: LICENSE
   summary: 'Flake8 plugin to check against using mutable values as default arguments.'
   dev_url: https://github.com/ebeweber/flake8-mutable
 
