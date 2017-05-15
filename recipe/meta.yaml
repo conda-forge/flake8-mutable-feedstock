@@ -1,6 +1,6 @@
 {% set name = "flake8-mutable" %}
-{% set version = "1.1.0" %}
-{% set sha256 = "dc3824c5ef0b9bffdaa18ab64cd08ef8dcae30969033a6d71dfbac878a058c4f" %}
+{% set version = "1.2.0" %}
+{% set sha256 = "ee9b77111b867d845177bbc289d87d541445ffcc6029a0c5c65865b42b18c6a6" %}
 
 package:
   name: {{ name|lower }}
@@ -19,6 +19,7 @@ requirements:
   build:
     - python
     - setuptools
+    - pytest-runner
   run:
     - python
     - flake8
