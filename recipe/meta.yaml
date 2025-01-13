@@ -30,7 +30,7 @@ test:
   requires:
     - python {{ python_min }}
   commands:
-    - "flake8 --version | grep flake-mutable:"
+    - "flake8 --version | grep flake8-mutable:"
 
 about:
   home: https://github.com/ebeweber/flake8-mutable
